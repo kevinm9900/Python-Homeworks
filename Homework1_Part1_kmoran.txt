@@ -1,0 +1,33 @@
+Take load
+Put load in washer
+Measure soap
+Add soap
+Set water temperature
+Set washer cycle
+Set timer
+Start washer
+Wait 
+Take load out 
+Put load in dryer
+Set timer
+Start dryer
+Take second load
+Put in washer
+Measure soap
+Add soap
+Set water temperature
+Set washer cycle
+Set timer
+Start washer
+Wait 
+Take first load from dryer
+Take second load from washer
+Put second load in dryer
+Set timer
+Start dryer
+Wait
+Take second load from dryer 
+Grab hangers
+Put clothes on hangers
+Hang in closet
+

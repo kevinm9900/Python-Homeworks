@@ -1,0 +1,67 @@
+# Homework 5  by Professor Sundararajan
+# Implemented by Kevin Moran
+#You should implement the following functions and call them from the main() function
+def main():
+    choice = 0;
+    
+    while choice != 5:
+        choice = userInput()
+        
+        if (choice == '1'):
+            print(dog())
+        
+        elif (choice == '2'):
+            print(cat())
+        
+        elif (choice == '3'):
+            print(lion())
+       
+        elif (choice == '4'):
+            print(sheep())
+        
+        elif (choice == '5'):
+            print("\n\n Thank you for using my program! Goodbye.")
+            exit(0)
+            
+        else:
+            print("\n\n The correct range of menu selections is 1 - 5. Please try again.")
+        
+#getUserInput()  which prints the menu and returns the user input to the main() function 
+def userInput():
+    choice = (input("\nThis is the animal speaking game. \n1) Dog \n2) Cat \n3) Lion \n4) Sheep \n5) Exit \nPlease enter a selection: "))
+    return choice
+#define functions for each animal
+def dog():
+    return "Bark"
+
+def cat():
+    return "Meow"
+    
+def lion():
+    return "Roar"
+
+def sheep():
+    return "Baah"
+    
+main()
+******************************************
+#ConsoleOutput
+This is the animal speaking game. 
+1) Dog 
+2) Cat 
+3) Lion 
+4) Sheep 
+5) Exit 
+Please enter a selection: 1
+Bark
+
+This is the animal speaking game. 
+1) Dog 
+2) Cat 
+3) Lion 
+4) Sheep 
+5) Exit 
+Please enter a selection: 5
+
+
+ Thank you for using my program! Goodbye.

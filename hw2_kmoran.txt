@@ -1,0 +1,70 @@
+#********************************************
+#Kevin Moran
+#kmoran
+#hw2
+#SEU COSC-1423-01
+#********************************************
+#1. Format and print on screen the above text using separate print statements per line. Notice that the double quotes (") are part of the string and need to be displayed using an escape sequence.
+def main():
+    print("This is")
+    print("\"String 1\"")
+    print("And this is:")
+    print("\"String 2\"")
+    print("When I concatenate these two strings together, I get:")
+    print("\"String 1\" + \"String 2\" = \"String3\"")
+    print("********************************************")
+#2. Now format and print on screen the above text using only one print statement and using the newline operator. 
+    print("This is\n\"String 1\"\nAnd this is:\n\"String 2\"\nWhen I concatenate these two strings together, I get:\n\"String 1\" + \"String 2\" = \"String3\"")
+    print("********************************************")
+#1. Format and print on screen the above text using separate print statements per line.
+    print("This is another:")
+    print("\"String\"")
+    print("I can write it 5 times as follows:")
+    print("\"String\"\"String\"\"String\"\"String\"\"String\"")
+    print("********************************************")
+#2. Format and print on screen the above text using only one print statement and the newline operator. Use the * operator to repeat the word "String" 5  times in the last line.
+    print("This is another:\n\"String\"\nI can write it 5 times as follows:" + "\n" + "\"String\"" * 5)
+    print("********************************************")
+#1. Do each of the following mathematical calculations using the respective operator and print using the print statement:
+    print("7 + 3 =",7+3)
+    print("7 - 3 =",7-3)
+    print("7 * 3 =",7*3)
+    print("7 / 3 =",7/3)
+    print("7 // 3 =",7//3)
+    print("7 % 3 =",7%3)
+main() 
+
+#********************************************
+#Console Output
+
+This is
+"String 1"
+And this is:
+"String 2"
+When I concatenate these two strings together, I get:
+"String 1" + "String 2" = "String3"
+********************************************
+This is
+"String 1"
+And this is:
+"String 2"
+When I concatenate these two strings together, I get:
+"String 1" + "String 2" = "String3"
+********************************************
+This is another:
+"String"
+I can write it 5 times as follows:
+"String""String""String""String""String"
+********************************************
+This is another:
+"String"
+I can write it 5 times as follows:
+"String""String""String""String""String"
+********************************************
+('7 + 3 =', 10)
+('7 - 3 =', 4)
+('7 * 3 =', 21)
+('7 / 3 =', 2)
+('7 // 3 =', 2)
+('7 % 3 =', 1)
+
